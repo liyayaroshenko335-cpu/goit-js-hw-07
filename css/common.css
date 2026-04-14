@@ -14,13 +14,16 @@ body {
   line-height: 1.5;
 }
 
+
 #categories {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 24px;
+  padding: 0;
+  margin: 0;
 }
+
 
 #categories .item {
   background-color: #f6f6fe;
@@ -29,15 +32,43 @@ body {
   width: 392px;
 }
 
+
+#categories .item h2 {
+  margin: 0 0 16px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  color: #2e2f42;
+}
+
+
+#categories .item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+#categories .item ul li {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   list-style: none;
-  padding: 24px;
-  margin: 0;
-  width: 1128px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1128px;
 }
 
 .gallery-item {
