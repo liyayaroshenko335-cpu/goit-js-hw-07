@@ -14,7 +14,6 @@ body {
   line-height: 1.5;
 }
 
-
 #categories {
   list-style: none;
   display: flex;
@@ -24,14 +23,12 @@ body {
   margin: 0;
 }
 
-
 #categories .item {
   background-color: #f6f6fe;
   padding: 16px;
   border-radius: 8px;
   width: 392px;
 }
-
 
 #categories .item h2 {
   margin: 0 0 16px 0;
@@ -41,7 +38,6 @@ body {
   color: #2e2f42;
 }
 
-
 #categories .item ul {
   list-style: none;
   padding: 0;
@@ -50,7 +46,6 @@ body {
   flex-direction: column;
   gap: 8px;
 }
-
 
 #categories .item ul li {
   padding: 8px 16px;
@@ -80,4 +75,35 @@ body {
   height: 300px;
   object-fit: cover;
   display: block;
+}
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: none;
+  margin-bottom: 16px;
+}
+
+#name-input:focus {
+  border-color: #4e75ff;
+}
+
+#name-input::placeholder {
+  color: #808080;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0;
 }
