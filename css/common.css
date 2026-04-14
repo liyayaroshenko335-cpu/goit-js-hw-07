@@ -170,6 +170,7 @@ h1 {
   justify-content: center;
   gap: 16px;
   margin: 100px auto;
+  border-radius: 8px;
 }
 
 .widget p {
