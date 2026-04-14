@@ -158,3 +158,77 @@ h1 {
 .login-form button:hover {
   background-color: #6c8cff;
 }
+
+.widget {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.widget p {
+  font-size: 16px;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+#controls {
+  display: flex;
+  gap: 16px;
+  background-color: #f6f6fe;
+  padding: 32px;
+  border-radius: 8px 8px 0 0;
+  width: 486px;
+}
+
+#controls input {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.change-color, 
+button[data-create] {
+  background-color: #4e75ff;
+}
+
+.change-color:hover, 
+button[data-create]:hover {
+  background-color: #6c8cff;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+button[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  padding: 32px;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 1px;
+  min-height: 100px;
+}
